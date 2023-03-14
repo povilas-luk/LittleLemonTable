@@ -43,8 +43,6 @@
   position: relative;
 }
 
-
-
 @media screen and (max-width: 1150px) {
   .hero {
     padding: 1rem 5vh;

@@ -1,0 +1,72 @@
+.reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: fixed;
+}
+
+fieldset h1 {
+  font-family: var(--font-base);
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40%;
+  height: 60%;
+  background-color: var(--color-lightgrey);
+  border-radius: 16px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reservation img {
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.field input, select{
+  display: flex;
+  width: 30vw;
+  margin: 1rem 0;
+  font-size: 30px;
+  font-family: var(--font-base);
+  padding-left: 0.5rem;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.reserve-btn {
+  font-size: 30px;
+  font-family: var(--font-base);
+  margin-top: 1rem;
+  padding: 0.3rem 0.5rem;
+  background-color: var(--color-yellow);
+  border: none;
+  border-radius: 10px;
+}
+
+.reserve-btn:hover {
+  background-color: var(--color-redskin);
+}
+
