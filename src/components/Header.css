@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10vw;
+
+}
+
+header img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 170px;
+}
+
+@media screen and (max-width: 1150px) {
+  header {
+    padding: 1rem 5vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    padding: 1rem 2vw;
+  }
+}

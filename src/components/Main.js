@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from './Hero'
+import Highlight from './Highlight';
 
 const Main = () => {
   return (
-    <main>Main</main>
+    <main>
+      <Hero />
+      <Highlight />
+    </main>
   )
 }
 

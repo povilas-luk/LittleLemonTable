@@ -1,0 +1,58 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--color-darkgreen);
+  padding: 2rem 10vw;
+}
+
+.hero h1 {
+  color: var(--color-yellow);
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  line-height: 2.5rem;
+}
+
+.hero h3 {
+  color: var(--color-white);
+   font-size: 3rem;
+}
+
+.hero p {
+  color: var(--color-white);
+  margin-top: 1rem;
+  width: 40vw;
+  font-size: 1.2rem;
+}
+
+.hero button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--color-yellow);
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.hero img {
+  height: 25vh;
+  width: 30vh;
+  border-radius: 16px;
+  top: 6vh;
+  position: relative;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+  .hero {
+    padding: 1rem 5vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero {
+    padding: 2rem 1vh;
+  }
+}

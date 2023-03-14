@@ -1,0 +1,93 @@
+.highlight {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 7rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.special h1 {
+  flex: 1;
+  font-size: 5rem;
+  line-height: 2.5rem;
+}
+
+.highlight button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--color-yellow);
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.special-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-shrink: 3;
+  gap: 2vw;
+  margin: 2rem 10vw;
+}
+
+.special-item{
+  width: 45vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: var(--color-lightgrey);
+}
+
+.special-item .dish-img {
+  height: 30vh;
+  width: 45vh;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.special-item .special-text {
+  margin: 1rem;
+}
+
+.special-item .name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.name-price .price {
+  color: var(--color-redskin);
+}
+
+.special-text p {
+  line-height: 18px;
+}
+
+.special-text .order{
+  margin-top: 1rem;
+  display: flex;
+}
+
+.special-text .order img {
+  width: 2vh;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .highlight {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .highlight {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+}
+
